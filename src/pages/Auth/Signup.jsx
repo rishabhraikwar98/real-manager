@@ -18,7 +18,7 @@ const Signup = () => {
   };
    useEffect(() => {
     if (userId && !loading) {
-      navigate("/");
+      navigate("/dashboard");
     }
   }, [userId, navigate]);
   const handleSubmit = async (e) => {
